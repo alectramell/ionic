@@ -1,0 +1,11 @@
+#!/bin/bash
+
+clear
+
+chmod +x /usr/share/applications/ionic.desktop
+
+clear
+
+nautilus /usr/share/applications/ionic.desktop &
+
+clear

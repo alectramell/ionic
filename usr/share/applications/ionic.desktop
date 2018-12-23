@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=IONIC
+Type=Application
+Icon=/usr/share/applications/ioniclib/img/icon.svg
+Exec=bash /usr/share/applications/ioniclib/ionic.sh
+Terminal=false

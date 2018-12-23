@@ -1,0 +1,6 @@
+Package: IONIC
+Version: 1.0
+Architecture: all
+Maintainer: Alec Tramell <alectramell@gmail.com>
+Priority: extra
+Description: Web App Engine
