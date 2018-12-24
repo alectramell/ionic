@@ -35,9 +35,9 @@
 
 <!-- in-menu icons buttons.. -->
 
-<img id="geneA" src="img/geneA.png" title="The Poseidon Gene" style="display:none;">
-<img id="geneB" src="img/geneB.png" title="The Gaia Gene" style="display:none;">
-<img id="geneC" src="img/geneC.png" title="The Hedes Gene" style="display:none;">
+<img id="geneA" src="img/geneA.png" title="The Poseidon Gene" onmouseover="this.style = 'position:absolute;top:35%;left:20%;width:139px;height:139px;border:5px solid #0048ff;border-radius: 20px;background:#000000;padding:5px 7px;opacity:1.0;z-index:5;';" onmouseout="this.style = 'position:absolute;top:35%;left:20%;width:139px;height:139px;border:5px solid #4c4c4c;border-radius: 20px;background:#000000;padding:5px 7px;opacity:1.0;z-index:5;';" style="display:none;">
+<img id="geneB" src="img/geneB.png" title="The Gaia Gene" onmouseover="this.style = 'position:absolute;top:35%;left:40%;width:139px;height:139px;border:5px solid #7eff00;border-radius: 20px;background:#000000;padding:5px 7px;opacity:1.0;z-index:5;';" onmouseout="this.style = 'position:absolute;top:35%;left:40%;width:139px;height:139px;border:5px solid #4c4c4c;border-radius: 20px;background:#000000;padding:5px 7px;opacity:1.0;z-index:5;';" style="display:none;">
+<img id="geneC" src="img/geneC.png" title="The Hedes Gene" onmouseover="this.style = 'position:absolute;top:35%;left:60%;width:139px;height:139px;border:5px solid #ff0f0f;border-radius: 20px;background:#000000;padding:5px 7px;opacity:1.0;z-index:5;';" onmouseout="this.style = 'position:absolute;top:35%;left:60%;width:139px;height:139px;border:5px solid #4c4c4c;border-radius: 20px;background:#000000;padding:5px 7px;opacity:1.0;z-index:5;';" style="display:none;">
 
 <img id="xmenu" src="img/menuBox.png" style="display:none;" onclick="hideGenes();hideMenu();">
 
