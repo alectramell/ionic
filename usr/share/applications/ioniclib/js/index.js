@@ -104,3 +104,74 @@ function closeApp() {
 
 	setTimeout('window.close();', 500);
 }
+
+function showGenes() {
+
+	var geneAstat = document.getElementById('geneA').style.display;
+	var geneBstat = document.getElementById('geneB').style.display;
+	var geneCstat = document.getElementById('geneC').style.display;
+
+	if ( geneAstat = "none" ) {
+
+		document.getElementById('geneA').style.display = "block";
+
+	} else {
+
+		document.getElementById('geneA').style.display = "none";
+	}
+
+	if ( geneBstat = "none" ) {
+
+		document.getElementById('geneB').style.display = "block";
+
+	} else {
+
+		document.getElementById('geneB').style.display = "none";
+	}
+
+	if ( geneCstat = "none" ) {
+
+		document.getElementById('geneC').style.display = "block";
+
+	} else {
+
+		document.getElementById('geneC').style.display = "none";
+	}
+}
+
+function hideGenes() {
+
+	var geneAstat = document.getElementById('geneA').style.display;
+	var geneBstat = document.getElementById('geneB').style.display;
+	var geneCstat = document.getElementById('geneC').style.display;
+
+	if ( geneAstat = "block" ) {
+
+		document.getElementById('geneA').style.display = "none";
+
+	} else {
+
+		document.getElementById('geneA').style.display = "block";
+	}
+
+	if ( geneBstat = "block" ) {
+
+		document.getElementById('geneB').style.display = "none";
+
+	} else {
+
+		document.getElementById('geneB').style.display = "block";
+	}
+
+	if ( geneCstat = "block" ) {
+
+		document.getElementById('geneC').style.display = "none";
+
+	} else {
+
+		document.getElementById('geneC').style.display = "block";
+	}
+}
+
+
+
