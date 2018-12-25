@@ -14,6 +14,12 @@ body {
 	src:url(../fonts/roughtrade.ttf);
 }
 
+@font-face {
+
+	font-family:comfortaa;
+	src:url(../fonts/comfortaa.ttf);
+}
+
 #titleText {
 
 	position:fixed;
@@ -219,7 +225,8 @@ body {
 	height:100%;
 	overflow:hidden;
 	opacity:1.0;
-	z-index:4;
+	z-index:3;
+	
 
 	animation-name:menuFade;
 	animation-iteration-count:1;
@@ -238,7 +245,7 @@ body {
 		height:0%;
 		overflow:hidden;
 		opacity:0.0;
-		z-index:4;
+		
 	}
 
 	100% {
@@ -250,7 +257,7 @@ body {
 		height:100%;
 		overflow:hidden;
 		opacity:1.0;
-		z-index:4;
+		
 	}
 }
 
@@ -370,7 +377,6 @@ body {
 	background:#000000;
 	padding:5px 7px;
 	opacity:1.0;
-	z-index:5;
 
 	animation-name:Agene;
 	animation-iteration-count:1;
@@ -391,7 +397,7 @@ body {
 	background:#000000;
 	padding:5px 7px;
 	opacity:1.0;
-	z-index:5;
+	
 
 	animation-name:Bgene;
 	animation-iteration-count:1;
@@ -412,7 +418,7 @@ body {
 	background:#000000;
 	padding:5px 7px;
 	opacity:1.0;
-	z-index:5;
+	
 
 	animation-name:Cgene;
 	animation-iteration-count:1;
@@ -434,7 +440,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:0.0;
-		z-index:5;
+		
 	}
 	
 	50% {
@@ -448,7 +454,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:0.3;
-		z-index:5;
+		
 	}
 
 	100% {
@@ -462,7 +468,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:1.0;
-		z-index:5;
+		
 	}
 }
 
@@ -479,7 +485,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:0.0;
-		z-index:5;
+		
 	}
 
 	50% {
@@ -493,7 +499,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:0.3;
-		z-index:5;
+		
 	}
 
 	100% {
@@ -507,7 +513,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:1.0;
-		z-index:5;
+		
 	}
 }
 
@@ -524,7 +530,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:0.0;
-		z-index:5;
+		
 	}
 
 	50% {
@@ -538,7 +544,7 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:0.3;
-		z-index:5;
+		
 	}
 
 	100% {
@@ -552,9 +558,197 @@ body {
 		background:#000000;
 		padding:5px 7px;
 		opacity:1.0;
-		z-index:5;
+		
 	}
 }
+
+#geneTitle {
+
+	position:absolute;
+	top:27px;
+	left:30px;
+	font-family:roughtrade;
+	font-size:33px;
+	color:#ffffff;
+	opacity:1.0;
+	z-index:5;
+
+	animation-name:geneText;
+	animation-iteration-count:1;
+	animation-duration:1000ms;
+	animation-delay:20ms;
+	animation-direction:normal;
+}
+
+#geneSteps {
+
+	position:absolute;
+	top:75px;
+	left:33px;
+	font-family:comfortaa;
+	font-size:20px;
+	color:#ffffff;
+	opacity:1.0;
+	z-index:5;
+
+	animation-name:geneStepping;
+	animation-iteration-count:1;
+	animation-duration:1000ms;
+	animation-delay:20ms;
+	animation-direction:normal;
+}
+
+@keyframes geneText {
+
+	0% {
+		position:absolute;
+		top:27px;
+		left:0px;
+		font-family:roughtrade;
+		font-size:33px;
+		color:#ffffff;
+		opacity:0.0;
+	}
+
+	100% {
+		position:absolute;
+		top:27px;
+		left:30px;
+		font-family:roughtrade;
+		font-size:33px;
+		color:#ffffff;
+		opacity:1.0;
+	}
+}
+
+@keyframes geneStepping {
+
+	0% {
+		position:absolute;
+		top:75px;
+		left:0px;
+		font-family:comfortaa;
+		font-size:20px;
+		color:#ffffff;
+		opacity:0.0;
+	}
+
+	100% {
+		position:absolute;
+		top:75px;
+		left:33px;
+		font-family:comfortaa;
+		font-size:20px;
+		color:#ffffff;
+		opacity:1.0;
+	}
+}
+
+#maleOpt {
+
+	position:absolute;
+	top:35%;
+	left:30%;
+	width:139px;
+	height:139px;
+	border:5px solid #4c4c4c;
+	border-radius: 20px;
+	background:#000000;
+	padding:5px 7px;
+	opacity:1.0;
+	z-index:5;
+}
+
+#femaleOpt {
+
+	position:absolute;
+	top:35%;
+	left:50%;
+	width:139px;
+	height:139px;
+	border:5px solid #4c4c4c;
+	border-radius: 20px;
+	background:#000000;
+	padding:5px 7px;
+	opacity:1.0;
+	z-index:5;
+}
+
+#newUserName {
+
+	position:absolute;
+	top:30%;
+	left:22%;
+	width:500px;
+	font-family:comfortaa;
+	font-size:25px;
+	color:#000000;
+	border:5px solid #4c4c4c;
+	border-radius: 15px;
+	background:#ffffff;
+	padding:9px 9px;
+	z-index:5;
+}
+
+#newUserPin {
+
+	position:absolute;
+	top:44%;
+	left:22%;
+	width:500px;
+	font-family:comfortaa;
+	font-size:25px;
+	color:#000000;
+	border:5px solid #4c4c4c;
+	border-radius: 15px;
+	background:#ffffff;
+	padding:9px 9px;
+	z-index:5;
+}
+
+#newUserWorld {
+
+	position:absolute;
+	top:58%;
+	left:22%;
+	width:500px;
+	font-family:comfortaa;
+	font-size:25px;
+	color:#000000;
+	border:5px solid #4c4c4c;
+	border-radius: 15px;
+	background:#ffffff;
+	padding:9px 9px;
+	z-index:5;
+}
+
+#newUserSubmit {
+
+	position:absolute;
+	top:73%;
+	left:45%;
+	width:250px;
+	font-family:roughtrade;
+	font-size:35px;
+	color:#ffffff;
+	border:5px solid #4c4c4c;
+	border-radius: 15px;
+	background:#4c4c4c;
+	padding:9px 9px;
+	z-index:5;
+}
+
+#userAtts {
+
+	position:absolute;
+	top:-7%;
+	left:14%;
+	width:50%;
+	height:100%;
+}
+
+
+
 
 
 
